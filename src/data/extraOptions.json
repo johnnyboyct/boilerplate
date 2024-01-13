@@ -1,0 +1,23 @@
+{
+    "terminalOpts": {
+        "promptText": "John@johnm.org:~$",
+        "introCommands": [
+            "cd welcome",
+            "^200cat John_Marczak_Welcome.txt"
+        ],
+        "terminalData": [
+            {
+                "command": "^200cat site/welcome/John_Marczak_Welcome.txt",
+                "results": [
+                    "^200Welcome to JohnM.org",
+                    "<span>Thanks!</span>"
+                ]
+            }
+        ]
+    },
+    "social": {
+        "linkedin": "jmarczak",
+        "twitter": "johnmarczak",
+        "mastodon": "johnnyboyct"
+    }
+}
