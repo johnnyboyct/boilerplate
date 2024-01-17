@@ -3,19 +3,19 @@ import { Helmet } from 'react-helmet-async';
 import { useSelector, useDispatch } from 'react-redux';
 import { NavBar } from 'app/components/NavBar';
 import { Masthead } from './Masthead';
-import { Features } from './Features';
+// import { Features } from './Features';
 import { PageWrapper } from 'app/components/PageWrapper';
 import { useJsonResumeSlice } from 'app/pages/HomePage/Features/JSONResume/slice';
 import { selectJsonResume } from 'app/pages/HomePage/Features/JSONResume/slice/selectors';
 
-export function HomePage() {
+export function ChartsPage() {
 	const { actions } = useJsonResumeSlice();
 	const dispatch = useDispatch();
 	const jsonResume = useSelector(selectJsonResume);
 	return (
 		<>
 			<Helmet>
-				<title>Home Page</title>
+				<title>Charts Page</title>
 				<meta
 					name="description"
 					content="John Marczak - Full Stack Developer and Geek | Home"
@@ -24,7 +24,7 @@ export function HomePage() {
 			<NavBar />
 			<PageWrapper>
 				<Masthead />
-				<Features />
+				{/* <Features /> */}
 			</PageWrapper>
 		</>
 	);

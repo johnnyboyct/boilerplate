@@ -4,8 +4,8 @@ import styled from 'styled-components/macro';
 export function Logo() {
 	return (
 		<Wrapper>
-			<Title>React Boilerplate</Title>
-			<Description>Create React App Template</Description>
+			<Title>John Marczak</Title>
+			<Description>Full Stack Developer</Description>
 		</Wrapper>
 	);
 }

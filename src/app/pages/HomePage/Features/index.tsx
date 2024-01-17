@@ -35,6 +35,8 @@ export function Features() {
 				<strong>best practices</strong>.
 			</Lead>
 			<List>
+				<Link to={process.env.PUBLIC_URL + '/intro'}>/intro</Link>
+				<Link to={process.env.PUBLIC_URL + '/charts'}>/charts</Link>
 				<Feature>
 					<StateIcon className="feature-icon" />
 					<Content>
